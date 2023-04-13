@@ -1,3 +1,6 @@
+print("Curso: FUNDAMENTOS DE PYTHON")
+print("Estudiante: Melanie Torres")
+print("Fecha: 10/04/2023\n")
 #CURSO DE FUNDAMENTOS DE PYTHON 
 #EJERCICIOS DE DICCIONARIOS
 #1.Crea un diccionario vacío y agrega tres elementos de la siguiente forma: "clave": valor
