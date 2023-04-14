@@ -2,12 +2,12 @@
 def contadorascendente1(num):
     cont=0
     while cont <= num:
-        print(cont)
+        print("El orden ascendente es: ",cont)
         cont+=1
 #2.Contador descendente: Escribe un programa en Python que pida al usuario un número entero positivo y, utilizando un bucle while, cuente desde ese número hasta cero, imprimiendo cada número en la pantalla.
 def contadordesendente(num):
     while num >= 0:
-        print(num)
+        print("El orden desendente es: ",num)
         num-=1
 #3.Suma de números: Escribe un programa en Python que pida al usuario un número entero positivo y, utilizando un bucle while, calcule la suma de todos los números desde cero hasta ese número y lo imprima en la pantalla.
 def suma(num):
@@ -16,7 +16,7 @@ def suma(num):
     while cont <= num:
         sum+=cont
         cont+=1
-    print(sum)
+    print("La suma es: ",sum)
 
 #4.Factorial: Escribe un programa en Python que pida al usuario un número entero positivo y, utilizando un bucle while, calcule el factorial de ese número y lo imprima en la pantalla. El factorial de un número n se define como el producto de todos los números enteros desde 1 hasta n.
 def factorial(num):
@@ -73,7 +73,7 @@ def potencia(numero,exponente):
     while cont <= exponente:
         resultado = resultado*numero
         cont+=1
-    print(resultado)
+    print("El resultado de la potecnia es: ",resultado)
 
 #9.Cálculo de promedio: Escribe un programa en Python que pida al usuario una lista de números y, utilizando un bucle while, calcule el promedio de esos números y lo imprima en la pantalla.
 def promedio(lista_numeros):
